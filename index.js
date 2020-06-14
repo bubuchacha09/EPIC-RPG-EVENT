@@ -20,7 +20,7 @@ client.on("message", message => {
 				message.channel.send('**__Arena__** <:epicrpgarena:721309296843030538> <:arenacookie:721310211830186086> <@&721290735541813268> các ngài thợ săn mau tham gia đấu trường để nhận Cookie.')
 				//thay emoji id va id role arena vao dong tren
 			}
-			else if (descriptiontext.endsWith("'s miniboss")){
+			else if (descriptiontext.endsWith("miniboss")){
 				message.channel.send('**__Mini Boss__** :dagger: <@&721290779670216805> các ngài thợ săn mau đến hỗ trợ.')
 			}
 		}
